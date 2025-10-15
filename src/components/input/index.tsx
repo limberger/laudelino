@@ -7,6 +7,8 @@ interface InputProps {
   register: UseFormRegister<any>;
   error?: string;
   rules?: RegisterOptions;
+}
+
 
 export function Input({name, placeholder, type, register, error, rules}: InputProps) {
   return(
