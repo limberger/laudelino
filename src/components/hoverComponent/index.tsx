@@ -2,6 +2,8 @@
 
 //import React, { useState, type ReactNode } from 'react';
 
+import { useState, type ReactNode } from "react";
+
 interface HoverComponentProps {
   children: ReactNode,   // valor
   img_src: string        // imagem a ser exibida no hover
